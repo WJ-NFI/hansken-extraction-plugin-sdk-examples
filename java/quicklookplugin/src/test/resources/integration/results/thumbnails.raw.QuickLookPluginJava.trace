@@ -1,0 +1,1137 @@
+{
+  "trace" : {
+    "id" : "0",
+    "name" : "thumbnails.data",
+    "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data",
+    "data" : {
+      "raw" : {
+        "fileType" : "Octet Stream",
+        "mimeType" : "application/octet-stream"
+      }
+    },
+    "file" : {
+      "extension" : "data",
+      "name" : "thumbnails.data",
+      "path" : "com.apple.QuickLook.thumbnailcache/thumbnails.data"
+    }
+  },
+  "children" : [
+    {
+      "trace" : {
+        "id" : "0-25",
+        "name" : "thumb-25",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-25",
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.444647",
+            "generator" : "com.apple.qlgenerator.text",
+            "plistVersion" : "<binary 11 version>",
+            "targetModifiedOn" : "2020-06-15T11:38:43.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Library/Preferences/com.apple.BezelServices.plist",
+          "targetFileLength" : 85
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-0",
+        "name" : "thumb-0",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-0",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.521960",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 0 version>",
+            "targetModifiedOn" : "2020-06-24T15:04:24.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/shutterstock_1013848126.jpg",
+          "targetFileLength" : 419721
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "1024",
+            "bitmapdata_location" : "8",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "64",
+            "content_rect" : "\"{{3, 5}, {10, 6}}\"",
+            "file_id" : "1",
+            "flavor" : "5",
+            "height" : "16",
+            "hit_count" : "11",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T07:20:48.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "1048",
+            "size" : "16",
+            "width" : "16"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-1",
+        "name" : "thumb-1",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-1",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.522006",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 1 version>",
+            "targetModifiedOn" : "2020-06-24T15:04:39.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/shutterstock_671541538-e1557714950453.jpg",
+          "targetFileLength" : 280158
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "1024",
+            "bitmapdata_location" : "1200",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "64",
+            "content_rect" : "\"{{3, 5}, {10, 6}}\"",
+            "file_id" : "2",
+            "flavor" : "5",
+            "height" : "16",
+            "hit_count" : "8",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T07:20:48.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "2240",
+            "size" : "16",
+            "width" : "16"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-2",
+        "name" : "thumb-2",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-2",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.522006",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 1 version>",
+            "targetModifiedOn" : "2020-06-24T15:04:39.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/shutterstock_671541538-e1557714950453.jpg",
+          "targetFileLength" : 280158
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "16384",
+            "bitmapdata_location" : "2392",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "256",
+            "content_rect" : "\"{{6, 16}, {52, 32}}\"",
+            "file_id" : "2",
+            "flavor" : "5",
+            "height" : "64",
+            "hit_count" : "13",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T13:36:48.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "18792",
+            "size" : "64",
+            "width" : "64"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-3",
+        "name" : "thumb-3",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-3",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.521960",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 0 version>",
+            "targetModifiedOn" : "2020-06-24T15:04:24.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/shutterstock_1013848126.jpg",
+          "targetFileLength" : 419721
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "16384",
+            "bitmapdata_location" : "18944",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "256",
+            "content_rect" : "\"{{6, 15}, {52, 34}}\"",
+            "file_id" : "1",
+            "flavor" : "5",
+            "height" : "64",
+            "hit_count" : "14",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T13:36:48.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "35344",
+            "size" : "64",
+            "width" : "64"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-4",
+        "name" : "thumb-4",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-4",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.522024",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 2 version>",
+            "targetModifiedOn" : "2020-06-24T15:04:54.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/American-shorthair-cat.jpg",
+          "targetFileLength" : 1377477
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "16384",
+            "bitmapdata_location" : "35496",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "256",
+            "content_rect" : "\"{{6, 13}, {52, 39}}\"",
+            "file_id" : "3",
+            "flavor" : "5",
+            "height" : "64",
+            "hit_count" : "13",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T13:36:48.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "51896",
+            "size" : "64",
+            "width" : "64"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-5",
+        "name" : "thumb-5",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-5",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.101363",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 3 version>",
+            "targetModifiedOn" : "2016-07-30T19:32:29.000 UTC"
+          },
+          "target" : "/Library/Screen Savers/Default Collections/2-Aerial/Aerial02.jpg",
+          "targetFileLength" : 4693609
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "16384",
+            "bitmapdata_location" : "52048",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "256",
+            "content_rect" : "\"{{6, 16}, {52, 32}}\"",
+            "file_id" : "4",
+            "flavor" : "5",
+            "height" : "64",
+            "hit_count" : "4",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-06-24T15:08:54.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "68448",
+            "size" : "64",
+            "width" : "64"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-6",
+        "name" : "thumb-6",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-6",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.101364",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 4 version>",
+            "targetModifiedOn" : "2016-07-30T19:32:29.000 UTC"
+          },
+          "target" : "/Library/Screen Savers/Default Collections/2-Aerial/Aerial03.jpg",
+          "targetFileLength" : 5771128
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "16384",
+            "bitmapdata_location" : "68600",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "256",
+            "content_rect" : "\"{{6, 16}, {52, 32}}\"",
+            "file_id" : "5",
+            "flavor" : "5",
+            "height" : "64",
+            "hit_count" : "4",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-06-24T15:08:54.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "85000",
+            "size" : "64",
+            "width" : "64"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-7",
+        "name" : "thumb-7",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-7",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.101368",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 5 version>",
+            "targetModifiedOn" : "2016-07-30T19:32:29.000 UTC"
+          },
+          "target" : "/Library/Screen Savers/Default Collections/2-Aerial/Aerial09.jpg",
+          "targetFileLength" : 3778919
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "16384",
+            "bitmapdata_location" : "515504",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "256",
+            "content_rect" : "\"{{6, 16}, {52, 32}}\"",
+            "file_id" : "6",
+            "flavor" : "5",
+            "height" : "64",
+            "hit_count" : "4",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-06-24T15:08:54.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "531904",
+            "size" : "64",
+            "width" : "64"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-8",
+        "name" : "thumb-8",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-8",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.101364",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 4 version>",
+            "targetModifiedOn" : "2016-07-30T19:32:29.000 UTC"
+          },
+          "target" : "/Library/Screen Savers/Default Collections/2-Aerial/Aerial03.jpg",
+          "targetFileLength" : 5771128
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "1024",
+            "bitmapdata_location" : "95880",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "64",
+            "content_rect" : "\"{{3, 5}, {10, 6}}\"",
+            "file_id" : "5",
+            "flavor" : "5",
+            "height" : "16",
+            "hit_count" : "1",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-06-24T15:08:27.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "96920",
+            "size" : "16",
+            "width" : "16"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-9",
+        "name" : "thumb-9",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-9",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.101363",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 3 version>",
+            "targetModifiedOn" : "2016-07-30T19:32:29.000 UTC"
+          },
+          "target" : "/Library/Screen Savers/Default Collections/2-Aerial/Aerial02.jpg",
+          "targetFileLength" : 4693609
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "1024",
+            "bitmapdata_location" : "93496",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "64",
+            "content_rect" : "\"{{3, 5}, {10, 6}}\"",
+            "file_id" : "4",
+            "flavor" : "5",
+            "height" : "16",
+            "hit_count" : "1",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-06-24T15:08:27.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "94536",
+            "size" : "16",
+            "width" : "16"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-10",
+        "name" : "thumb-10",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-10",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.101368",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 5 version>",
+            "targetModifiedOn" : "2016-07-30T19:32:29.000 UTC"
+          },
+          "target" : "/Library/Screen Savers/Default Collections/2-Aerial/Aerial09.jpg",
+          "targetFileLength" : 3778919
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "1024",
+            "bitmapdata_location" : "92304",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "64",
+            "content_rect" : "\"{{3, 5}, {10, 6}}\"",
+            "file_id" : "6",
+            "flavor" : "5",
+            "height" : "16",
+            "hit_count" : "1",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-06-24T15:08:27.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "93344",
+            "size" : "16",
+            "width" : "16"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-11",
+        "name" : "thumb-11",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-11",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.522024",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 2 version>",
+            "targetModifiedOn" : "2020-06-24T15:04:54.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/American-shorthair-cat.jpg",
+          "targetFileLength" : 1377477
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "1024",
+            "bitmapdata_location" : "89184",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "64",
+            "content_rect" : "\"{{3, 4}, {10, 7}}\"",
+            "file_id" : "3",
+            "flavor" : "5",
+            "height" : "16",
+            "hit_count" : "7",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T07:20:48.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "90224",
+            "size" : "16",
+            "width" : "16"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-12",
+        "name" : "thumb-12",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-12",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.522006",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 1 version>",
+            "targetModifiedOn" : "2020-06-24T15:04:39.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/shutterstock_671541538-e1557714950453.jpg",
+          "targetFileLength" : 280158
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "141120",
+            "bitmapdata_location" : "1006400",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "960",
+            "content_rect" : "\"{{0, 0}, {239, 147}}\"",
+            "file_id" : "2",
+            "flavor" : "0",
+            "height" : "147",
+            "hit_count" : "1",
+            "icon_mode" : "0",
+            "last_hit_date" : "2020-06-24T15:19:26.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "90680",
+            "size" : "239",
+            "width" : "239"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-13",
+        "name" : "thumb-13",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-13",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.521960",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 0 version>",
+            "targetModifiedOn" : "2020-06-24T15:04:24.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/shutterstock_1013848126.jpg",
+          "targetFileLength" : 419721
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "152640",
+            "bitmapdata_location" : "1319392",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "960",
+            "content_rect" : "\"{{0, 0}, {239, 159}}\"",
+            "file_id" : "1",
+            "flavor" : "0",
+            "height" : "159",
+            "hit_count" : "1",
+            "icon_mode" : "0",
+            "last_hit_date" : "2020-06-24T15:19:26.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "97072",
+            "size" : "239",
+            "width" : "239"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-14",
+        "name" : "thumb-14",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-14",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.522024",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 2 version>",
+            "targetModifiedOn" : "2020-06-24T15:04:54.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/American-shorthair-cat.jpg",
+          "targetFileLength" : 1377477
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "171840",
+            "bitmapdata_location" : "1472048",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "960",
+            "content_rect" : "\"{{0, 0}, {239, 179}}\"",
+            "file_id" : "3",
+            "flavor" : "0",
+            "height" : "179",
+            "hit_count" : "1",
+            "icon_mode" : "0",
+            "last_hit_date" : "2020-06-24T15:19:26.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "97224",
+            "size" : "239",
+            "width" : "239"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-15",
+        "name" : "thumb-15",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-15",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.523052",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 6 version>",
+            "targetModifiedOn" : "2020-06-24T15:20:40.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/shutterstock_102954617-1024x680.jpg",
+          "targetFileLength" : 66135
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "1024",
+            "bitmapdata_location" : "97376",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "64",
+            "content_rect" : "\"{{3, 5}, {10, 6}}\"",
+            "file_id" : "7",
+            "flavor" : "5",
+            "height" : "16",
+            "hit_count" : "5",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T07:20:48.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "90832",
+            "size" : "16",
+            "width" : "16"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-16",
+        "name" : "thumb-16",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-16",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.523052",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 6 version>",
+            "targetModifiedOn" : "2020-06-24T15:20:40.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/shutterstock_102954617-1024x680.jpg",
+          "targetFileLength" : 66135
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "151680",
+            "bitmapdata_location" : "1147536",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "960",
+            "content_rect" : "\"{{0, 0}, {239, 158}}\"",
+            "file_id" : "7",
+            "flavor" : "0",
+            "height" : "158",
+            "hit_count" : "1",
+            "icon_mode" : "0",
+            "last_hit_date" : "2020-06-24T15:20:45.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "90376",
+            "size" : "239",
+            "width" : "239"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-17",
+        "name" : "thumb-17",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-17",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.523181",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 7 version>",
+            "targetModifiedOn" : "2020-06-24T15:21:42.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/about-horses.jpg",
+          "targetFileLength" : 119337
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "137280",
+            "bitmapdata_location" : "849904",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "960",
+            "content_rect" : "\"{{0, 0}, {239, 143}}\"",
+            "file_id" : "8",
+            "flavor" : "0",
+            "height" : "143",
+            "hit_count" : "1",
+            "icon_mode" : "0",
+            "last_hit_date" : "2020-06-24T15:21:47.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "98416",
+            "size" : "239",
+            "width" : "239"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-18",
+        "name" : "thumb-18",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-18",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.523181",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 7 version>",
+            "targetModifiedOn" : "2020-06-24T15:21:42.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/about-horses.jpg",
+          "targetFileLength" : 119337
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "1024",
+            "bitmapdata_location" : "98568",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "64",
+            "content_rect" : "\"{{3, 5}, {10, 6}}\"",
+            "file_id" : "8",
+            "flavor" : "5",
+            "height" : "16",
+            "hit_count" : "3",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T07:20:48.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "99608",
+            "size" : "16",
+            "width" : "16"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-19",
+        "name" : "thumb-19",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-19",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.523181",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 7 version>",
+            "targetModifiedOn" : "2020-06-24T15:21:42.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/about-horses.jpg",
+          "targetFileLength" : 119337
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "16384",
+            "bitmapdata_location" : "987200",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "256",
+            "content_rect" : "\"{{6, 17}, {52, 31}}\"",
+            "file_id" : "8",
+            "flavor" : "5",
+            "height" : "64",
+            "hit_count" : "7",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T13:36:48.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "90528",
+            "size" : "64",
+            "width" : "64"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-20",
+        "name" : "thumb-20",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-20",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.523052",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 6 version>",
+            "targetModifiedOn" : "2020-06-24T15:20:40.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Pictures/shutterstock_102954617-1024x680.jpg",
+          "targetFileLength" : 66135
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "16384",
+            "bitmapdata_location" : "1299232",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "256",
+            "content_rect" : "\"{{6, 15}, {52, 34}}\"",
+            "file_id" : "7",
+            "flavor" : "5",
+            "height" : "64",
+            "hit_count" : "7",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T13:36:48.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "99760",
+            "size" : "64",
+            "width" : "64"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-21",
+        "name" : "thumb-21",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-21",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6872145.445698",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 8 version>",
+            "targetModifiedOn" : "2017-04-21T00:00:26.000 UTC"
+          },
+          "target" : "/Volumes/macOS/.VolumeIcon.icns",
+          "targetFileLength" : 1228732
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "1024",
+            "bitmapdata_location" : "99912",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "64",
+            "content_rect" : "\"{{0, 0}, {16, 16}}\"",
+            "file_id" : "9",
+            "flavor" : "0",
+            "height" : "16",
+            "hit_count" : "1",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-06-24T15:23:40.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "100952",
+            "size" : "16",
+            "width" : "16"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-22",
+        "name" : "thumb-22",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-22",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6872145.445698",
+            "generator" : "com.apple.qlgenerator.image",
+            "plistVersion" : "<binary 8 version>",
+            "targetModifiedOn" : "2017-04-21T00:00:26.000 UTC"
+          },
+          "target" : "/Volumes/macOS/.VolumeIcon.icns",
+          "targetFileLength" : 1228732
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "16384",
+            "bitmapdata_location" : "712608",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "256",
+            "content_rect" : "\"{{0, 0}, {64, 64}}\"",
+            "file_id" : "9",
+            "flavor" : "0",
+            "height" : "64",
+            "hit_count" : "3",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-02T13:58:37.000 UTC",
+            "plistbuffer_length" : "136",
+            "plistbuffer_location" : "101104",
+            "size" : "64",
+            "width" : "64"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-23",
+        "name" : "thumb-23",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-23",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.92825",
+            "generator" : "com.apple.qlgenerator.text",
+            "plistVersion" : "<binary 9 version>",
+            "targetModifiedOn" : "2017-05-09T09:25:28.000 UTC"
+          },
+          "target" : "/Library/Frameworks/iTunesLibrary.framework/Versions/A/Headers/ITLibMediaItem.h",
+          "targetFileLength" : 18461
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "16384",
+            "bitmapdata_location" : "729008",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "256",
+            "content_rect" : "\"{{12, 6}, {39, 53}}\"",
+            "file_id" : "10",
+            "flavor" : "265",
+            "height" : "64",
+            "hit_count" : "1",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T10:18:43.000 UTC",
+            "plistbuffer_length" : "112",
+            "plistbuffer_location" : "86216",
+            "size" : "64",
+            "width" : "64"
+          }
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-24",
+        "name" : "thumb-24",
+        "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data/thumb-24",
+        "data" : {
+          "raw" : {
+            "mimeClass" : "picture",
+            "mimeType" : "image/png"
+          }
+        },
+        "link" : {
+          "misc" : {
+            "fsId" : "/.file/id=6571367.531449",
+            "generator" : "com.apple.qlgenerator.text",
+            "plistVersion" : "<binary 10 version>",
+            "targetModifiedOn" : "2020-07-07T10:20:03.000 UTC"
+          },
+          "target" : "/Users/dbsuser/Library/Caches/com.apple.nsservicescache.plist",
+          "targetFileLength" : 14126
+        },
+        "picture" : {
+          "misc" : {
+            "bitmapdata_length" : "16384",
+            "bitmapdata_location" : "745408",
+            "bitmapinfo" : "1",
+            "bitspercomponent" : "8",
+            "bitsperpixel" : "32",
+            "bytesperrow" : "256",
+            "content_rect" : "\"{{12, 6}, {39, 53}}\"",
+            "file_id" : "11",
+            "flavor" : "265",
+            "height" : "64",
+            "hit_count" : "1",
+            "icon_mode" : "1",
+            "last_hit_date" : "2020-07-07T10:38:41.000 UTC",
+            "plistbuffer_length" : "0",
+            "plistbuffer_location" : "0",
+            "size" : "64",
+            "width" : "64"
+          }
+        }
+      }
+    }
+  ]
+}

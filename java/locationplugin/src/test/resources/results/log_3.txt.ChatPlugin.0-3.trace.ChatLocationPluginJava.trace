@@ -1,0 +1,19 @@
+{
+  "trace" : {
+    "id" : "0-3",
+    "name" : "message 3",
+    "path" : "/test-input-trace",
+    "chatMessage" : {
+      "application" : "DemoApp",
+      "from" : "Adama",
+      "message" : "maar voornamelijk omdat we terug naar waterval",
+      "to" : [
+        "Roslin"
+      ]
+    },
+    "gps" : {
+      "application" : "DemoApp",
+      "latlong" : "+51.92439+004.46756"
+    }
+  }
+}

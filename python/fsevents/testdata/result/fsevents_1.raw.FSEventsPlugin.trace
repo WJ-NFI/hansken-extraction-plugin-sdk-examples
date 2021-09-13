@@ -1,0 +1,45 @@
+{
+  "trace" : {
+    "id" : "0",
+    "name" : "test-input-trace",
+    "path" : "/test-input-trace",
+    "data" : {
+      "fileType" : "GnuZip"
+    },
+    "eventLog" : {
+      "application" : "fseventsd"
+    },
+    "file" : {
+      "modifiedOn" : "22-02-2021T12:00:00",
+      "path" : "fseventsd"
+    }
+  },
+  "children" : [
+    {
+      "trace" : {
+        "id" : "0-0",
+        "name" : "00000000009f8d84 (10456452)",
+        "path" : "/test-input-trace/00000000009f8d84 (10456452)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "sl-compat",
+          "type" : "FolderEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-1",
+        "name" : "00000000009f8d85 (10456453)",
+        "path" : "/test-input-trace/00000000009f8d85 (10456453)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "NULL",
+          "type" : "FolderEvent;"
+        }
+      }
+    }
+  ]
+}

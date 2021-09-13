@@ -1,0 +1,13 @@
+{
+  "trace": {
+    "data" : {
+      "raw" : {
+        "mimeClass" : "text"
+      }
+    },
+    "file": {
+      "extension": "txt",
+      "name": "log_1.txt"
+    }
+  }
+}

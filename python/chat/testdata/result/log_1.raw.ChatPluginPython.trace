@@ -1,0 +1,298 @@
+{
+  "trace" : {
+    "id" : "0",
+    "name" : "test-input-trace",
+    "path" : "/test-input-trace",
+    "chatConversation" : {
+      "application" : "DemoApp log_1.txt"
+    },
+    "file" : {
+      "extension" : "txt",
+      "name" : "log_1.txt"
+    }
+  },
+  "children" : [
+    {
+      "trace" : {
+        "id" : "0-0",
+        "name" : "message 0",
+        "path" : "/test-input-trace/message 0",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Harry",
+          "message" : "We motte snel zèn, die gozâhs bè HQ hebbe ons bèna in de klâhwe",
+          "to" : [
+            "Sam"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Harry-Sam",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-0-0",
+            "name" : "Harry",
+            "path" : "/test-input-trace/message 0/Harry",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Harry"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-0-1",
+            "name" : "Sam",
+            "path" : "/test-input-trace/message 0/Sam",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Sam"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-1",
+        "name" : "message 1",
+        "path" : "/test-input-trace/message 1",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Sam",
+          "message" : "Die Priscilla moet echt weg. Lelijke troela op haar rode schoentjes.",
+          "to" : [
+            "Harry"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Harry-Sam",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-1-0",
+            "name" : "Sam",
+            "path" : "/test-input-trace/message 1/Sam",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Sam"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-1-1",
+            "name" : "Harry",
+            "path" : "/test-input-trace/message 1/Harry",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Harry"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-2",
+        "name" : "message 2",
+        "path" : "/test-input-trace/message 2",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Harry",
+          "message" : "Gan we reigeile.",
+          "to" : [
+            "Sam"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Harry-Sam",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-2-0",
+            "name" : "Harry",
+            "path" : "/test-input-trace/message 2/Harry",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Harry"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-2-1",
+            "name" : "Sam",
+            "path" : "/test-input-trace/message 2/Sam",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Sam"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-3",
+        "name" : "message 3",
+        "path" : "/test-input-trace/message 3",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Sam",
+          "message" : "Morgen gaan we eerst om 12u nog langs Het Park om een wapen te halen",
+          "to" : [
+            "Harry"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Harry-Sam",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-3-0",
+            "name" : "Sam",
+            "path" : "/test-input-trace/message 3/Sam",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Sam"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-3-1",
+            "name" : "Harry",
+            "path" : "/test-input-trace/message 3/Harry",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Harry"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-4",
+        "name" : "message 4",
+        "path" : "/test-input-trace/message 4",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Harry",
+          "message" : "Ok, dat lùid dan ut ènde in van onze lieftallage Priscilla. Hoe laat gaat-ie dan ech gebeurûh?",
+          "to" : [
+            "Sam"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Harry-Sam",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-4-0",
+            "name" : "Harry",
+            "path" : "/test-input-trace/message 4/Harry",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Harry"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-4-1",
+            "name" : "Sam",
+            "path" : "/test-input-trace/message 4/Sam",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Sam"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-5",
+        "name" : "message 5",
+        "path" : "/test-input-trace/message 5",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Sam",
+          "message" : "14 uur, bij De Dom",
+          "to" : [
+            "Harry"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Harry-Sam",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-5-0",
+            "name" : "Sam",
+            "path" : "/test-input-trace/message 5/Sam",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Sam"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-5-1",
+            "name" : "Harry",
+            "path" : "/test-input-trace/message 5/Harry",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Harry"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "trace": {
+    "data": {
+      "raw.mimeType": "image/jpg"
+    },
+    "file": {
+      "name": "image.raw"
+    }
+  }
+}

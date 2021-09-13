@@ -1,0 +1,15 @@
+{
+  "trace" : {
+    "id" : "0-0",
+    "name" : "message 0",
+    "path" : "/test-input-trace",
+    "chatMessage" : {
+      "application" : "DemoApp",
+      "from" : "Adama",
+      "message" : "Tigh mag voorlopig geen code reviews meer doen",
+      "to" : [
+        "Roslin"
+      ]
+    }
+  }
+}

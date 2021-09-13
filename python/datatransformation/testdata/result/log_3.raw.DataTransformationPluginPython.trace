@@ -1,0 +1,138 @@
+{
+  "trace" : {
+    "id" : "0",
+    "name" : "test-input-trace",
+    "path" : "/test-input-trace",
+    "data" : {
+      "raw" : {
+        "fileType" : "Text UTF-8"
+      }
+    },
+    "file" : {
+      "extension" : "txt",
+      "name" : "log_3.txt"
+    }
+  },
+  "children" : [
+    {
+      "trace" : {
+        "id" : "0-0",
+        "name" : "lineNumber 0",
+        "path" : "/test-input-trace/lineNumber 0"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":54,\"offset\":0}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-1",
+        "name" : "lineNumber 1",
+        "path" : "/test-input-trace/lineNumber 1"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":68,\"offset\":54}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-2",
+        "name" : "lineNumber 2",
+        "path" : "/test-input-trace/lineNumber 2"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":45,\"offset\":122}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-3",
+        "name" : "lineNumber 3",
+        "path" : "/test-input-trace/lineNumber 3"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":52,\"offset\":167}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-4",
+        "name" : "lineNumber 4",
+        "path" : "/test-input-trace/lineNumber 4"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":32,\"offset\":219}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-5",
+        "name" : "lineNumber 5",
+        "path" : "/test-input-trace/lineNumber 5"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":21,\"offset\":251}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-6",
+        "name" : "lineNumber 6",
+        "path" : "/test-input-trace/lineNumber 6"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":36,\"offset\":272}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-7",
+        "name" : "lineNumber 7",
+        "path" : "/test-input-trace/lineNumber 7"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":34,\"offset\":308}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-8",
+        "name" : "lineNumber 8",
+        "path" : "/test-input-trace/lineNumber 8"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":48,\"offset\":342}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-9",
+        "name" : "lineNumber 9",
+        "path" : "/test-input-trace/lineNumber 9"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":99,\"offset\":390}]}]"
+        }
+      }
+    }
+  ]
+}

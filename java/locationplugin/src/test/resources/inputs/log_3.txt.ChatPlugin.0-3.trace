@@ -1,0 +1,14 @@
+{
+  "trace" : {
+    "id" : "0-3",
+    "name" : "message 3",
+    "chatMessage" : {
+      "application" : "DemoApp",
+      "from" : "Adama",
+      "message" : "maar voornamelijk omdat we terug naar waterval",
+      "to" : [
+        "Roslin"
+      ]
+    }
+  }
+}

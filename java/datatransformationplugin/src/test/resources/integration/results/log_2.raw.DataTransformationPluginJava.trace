@@ -1,0 +1,342 @@
+{
+  "trace" : {
+    "id" : "0",
+    "name" : "test-input-trace",
+    "path" : "/test-input-trace",
+    "data" : {
+      "raw" : {
+        "mimeClass" : "text"
+      }
+    },
+    "file" : {
+      "extension" : "txt",
+      "name" : "log_2.txt"
+    }
+  },
+  "children" : [
+    {
+      "trace" : {
+        "id" : "0-0",
+        "name" : "lineNumber 1",
+        "path" : "/test-input-trace/lineNumber 1"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":41,\"offset\":0}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-1",
+        "name" : "lineNumber 2",
+        "path" : "/test-input-trace/lineNumber 2"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":22,\"offset\":41}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-2",
+        "name" : "lineNumber 3",
+        "path" : "/test-input-trace/lineNumber 3"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":37,\"offset\":63}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-3",
+        "name" : "lineNumber 4",
+        "path" : "/test-input-trace/lineNumber 4"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":25,\"offset\":100}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-4",
+        "name" : "lineNumber 5",
+        "path" : "/test-input-trace/lineNumber 5"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":72,\"offset\":125}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-5",
+        "name" : "lineNumber 6",
+        "path" : "/test-input-trace/lineNumber 6"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":32,\"offset\":197}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-6",
+        "name" : "lineNumber 7",
+        "path" : "/test-input-trace/lineNumber 7"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":40,\"offset\":229}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-7",
+        "name" : "lineNumber 8",
+        "path" : "/test-input-trace/lineNumber 8"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":22,\"offset\":269}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-8",
+        "name" : "lineNumber 9",
+        "path" : "/test-input-trace/lineNumber 9"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":45,\"offset\":291}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-9",
+        "name" : "lineNumber 10",
+        "path" : "/test-input-trace/lineNumber 10"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":19,\"offset\":336}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-10",
+        "name" : "lineNumber 11",
+        "path" : "/test-input-trace/lineNumber 11"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":55,\"offset\":355}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-11",
+        "name" : "lineNumber 12",
+        "path" : "/test-input-trace/lineNumber 12"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":21,\"offset\":410}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-12",
+        "name" : "lineNumber 13",
+        "path" : "/test-input-trace/lineNumber 13"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":42,\"offset\":431}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-13",
+        "name" : "lineNumber 14",
+        "path" : "/test-input-trace/lineNumber 14"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":48,\"offset\":473}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-14",
+        "name" : "lineNumber 15",
+        "path" : "/test-input-trace/lineNumber 15"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":49,\"offset\":521}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-15",
+        "name" : "lineNumber 16",
+        "path" : "/test-input-trace/lineNumber 16"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":46,\"offset\":570}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-16",
+        "name" : "lineNumber 17",
+        "path" : "/test-input-trace/lineNumber 17"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":22,\"offset\":616}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-17",
+        "name" : "lineNumber 18",
+        "path" : "/test-input-trace/lineNumber 18"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":48,\"offset\":638}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-18",
+        "name" : "lineNumber 19",
+        "path" : "/test-input-trace/lineNumber 19"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":34,\"offset\":686}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-19",
+        "name" : "lineNumber 20",
+        "path" : "/test-input-trace/lineNumber 20"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":47,\"offset\":720}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-20",
+        "name" : "lineNumber 21",
+        "path" : "/test-input-trace/lineNumber 21"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":26,\"offset\":767}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-21",
+        "name" : "lineNumber 22",
+        "path" : "/test-input-trace/lineNumber 22"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":25,\"offset\":793}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-22",
+        "name" : "lineNumber 23",
+        "path" : "/test-input-trace/lineNumber 23"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":33,\"offset\":818}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-23",
+        "name" : "lineNumber 24",
+        "path" : "/test-input-trace/lineNumber 24"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":35,\"offset\":851}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-24",
+        "name" : "lineNumber 25",
+        "path" : "/test-input-trace/lineNumber 25"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":21,\"offset\":886}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-25",
+        "name" : "lineNumber 26",
+        "path" : "/test-input-trace/lineNumber 26"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":36,\"offset\":907}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-26",
+        "name" : "lineNumber 27",
+        "path" : "/test-input-trace/lineNumber 27"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":41,\"offset\":943}]}]"
+        }
+      }
+    }
+  ]
+}

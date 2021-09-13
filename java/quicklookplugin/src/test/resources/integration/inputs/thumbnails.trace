@@ -1,0 +1,17 @@
+{
+  "trace": {
+    "name" : "thumbnails.data",
+    "path" : "/com.apple.QuickLook.thumbnailcache/thumbnails.data",
+    "data" : {
+      "raw" : {
+        "fileType" : "Octet Stream",
+        "mimeType" : "application/octet-stream"
+      }
+    },
+    "file": {
+      "extension" : "data",
+      "name" : "thumbnails.data",
+      "path" : "com.apple.QuickLook.thumbnailcache/thumbnails.data"
+    }
+  }
+}

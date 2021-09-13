@@ -1,0 +1,19 @@
+{
+  "trace" : {
+    "id" : "0-2",
+    "name" : "message 2",
+    "path" : "/test-input-trace",
+    "chatMessage" : {
+      "application" : "DemoApp",
+      "from" : "Tigh",
+      "message" : "arggh",
+      "to" : [
+        "Starbuck"
+      ]
+    },
+    "gps" : {
+      "application" : "DemoApp",
+      "latlong" : "+52.04480+004.35852"
+    }
+  }
+}

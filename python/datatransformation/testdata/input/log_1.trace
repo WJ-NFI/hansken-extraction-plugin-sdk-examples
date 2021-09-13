@@ -1,0 +1,11 @@
+{
+  "trace": {
+    "data": {
+      "raw.fileType": "Text UTF-8"
+    },
+    "file": {
+      "extension": "txt",
+      "name": "log_1.txt"
+    }
+  }
+}

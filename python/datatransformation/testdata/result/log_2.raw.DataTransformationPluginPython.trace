@@ -1,0 +1,114 @@
+{
+  "trace" : {
+    "id" : "0",
+    "name" : "test-input-trace",
+    "path" : "/test-input-trace",
+    "data" : {
+      "raw" : {
+        "fileType" : "Text UTF-8"
+      }
+    },
+    "file" : {
+      "extension" : "txt",
+      "name" : "log_2.txt"
+    }
+  },
+  "children" : [
+    {
+      "trace" : {
+        "id" : "0-0",
+        "name" : "lineNumber 0",
+        "path" : "/test-input-trace/lineNumber 0"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":49,\"offset\":0}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-1",
+        "name" : "lineNumber 1",
+        "path" : "/test-input-trace/lineNumber 1"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":38,\"offset\":49}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-2",
+        "name" : "lineNumber 2",
+        "path" : "/test-input-trace/lineNumber 2"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":24,\"offset\":87}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-3",
+        "name" : "lineNumber 3",
+        "path" : "/test-input-trace/lineNumber 3"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":167,\"offset\":111}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-4",
+        "name" : "lineNumber 4",
+        "path" : "/test-input-trace/lineNumber 4"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":50,\"offset\":278}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-5",
+        "name" : "lineNumber 5",
+        "path" : "/test-input-trace/lineNumber 5"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":40,\"offset\":328}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-6",
+        "name" : "lineNumber 6",
+        "path" : "/test-input-trace/lineNumber 6"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":65,\"offset\":368}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-7",
+        "name" : "lineNumber 7",
+        "path" : "/test-input-trace/lineNumber 7"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":29,\"offset\":433}]}]"
+        }
+      }
+    }
+  ]
+}

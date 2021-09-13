@@ -1,0 +1,500 @@
+{
+  "trace" : {
+    "id" : "0",
+    "name" : "test-input-trace",
+    "path" : "/test-input-trace",
+    "data" : {
+      "fileType" : "GnuZip"
+    },
+    "eventLog" : {
+      "application" : "fseventsd"
+    },
+    "file" : {
+      "modifiedOn" : "22-02-2021T12:00:00",
+      "path" : "fseventsd"
+    }
+  },
+  "children" : [
+    {
+      "trace" : {
+        "id" : "0-0",
+        "name" : "00000000009fabc9 (10464201)",
+        "path" : "/test-input-trace/00000000009fabc9 (10464201)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "NULL",
+          "type" : ""
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-1",
+        "name" : "00000000009fd767 (10475367)",
+        "path" : "/test-input-trace/00000000009fd767 (10475367)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "untitled folder",
+          "type" : "FolderEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-2",
+        "name" : "00000000009fd7e5 (10475493)",
+        "path" : "/test-input-trace/00000000009fd7e5 (10475493)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : ".DS_Store",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-3",
+        "name" : "00000000009fd792 (10475410)",
+        "path" : "/test-input-trace/00000000009fd792 (10475410)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "fseventsdback",
+          "type" : "FolderEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-4",
+        "name" : "00000000009fd7f1 (10475505)",
+        "path" : "/test-input-trace/00000000009fd7f1 (10475505)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : ".DS_Store",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-5",
+        "name" : "00000000009fd965 (10475877)",
+        "path" : "/test-input-trace/00000000009fd965 (10475877)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : ".fseventsd",
+          "type" : "FolderEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-6",
+        "name" : "00000000009fd800 (10475520)",
+        "path" : "/test-input-trace/00000000009fd800 (10475520)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "000000000000cd67",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-7",
+        "name" : "00000000009fd80c (10475532)",
+        "path" : "/test-input-trace/00000000009fd80c (10475532)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000000dfdb3",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-8",
+        "name" : "00000000009fd818 (10475544)",
+        "path" : "/test-input-trace/00000000009fd818 (10475544)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000000dfdb4",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-9",
+        "name" : "00000000009fd824 (10475556)",
+        "path" : "/test-input-trace/00000000009fd824 (10475556)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000000edb63",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-10",
+        "name" : "00000000009fd830 (10475568)",
+        "path" : "/test-input-trace/00000000009fd830 (10475568)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "000000000022ffe1",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-11",
+        "name" : "00000000009fd83c (10475580)",
+        "path" : "/test-input-trace/00000000009fd83c (10475580)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "0000000000265eb0",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-12",
+        "name" : "00000000009fd848 (10475592)",
+        "path" : "/test-input-trace/00000000009fd848 (10475592)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "0000000000271d6c",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-13",
+        "name" : "00000000009fd854 (10475604)",
+        "path" : "/test-input-trace/00000000009fd854 (10475604)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "000000000031eb2e",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-14",
+        "name" : "00000000009fd860 (10475616)",
+        "path" : "/test-input-trace/00000000009fd860 (10475616)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "0000000000331f60",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-15",
+        "name" : "00000000009fd86c (10475628)",
+        "path" : "/test-input-trace/00000000009fd86c (10475628)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "000000000033d524",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-16",
+        "name" : "00000000009fd878 (10475640)",
+        "path" : "/test-input-trace/00000000009fd878 (10475640)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000003be585",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-17",
+        "name" : "00000000009fd884 (10475652)",
+        "path" : "/test-input-trace/00000000009fd884 (10475652)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000003ccabe",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-18",
+        "name" : "00000000009fd890 (10475664)",
+        "path" : "/test-input-trace/00000000009fd890 (10475664)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000003ea11b",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-19",
+        "name" : "00000000009fd89c (10475676)",
+        "path" : "/test-input-trace/00000000009fd89c (10475676)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "000000000041a72c",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-20",
+        "name" : "00000000009fd8a8 (10475688)",
+        "path" : "/test-input-trace/00000000009fd8a8 (10475688)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "000000000043dfd8",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-21",
+        "name" : "00000000009fd8b4 (10475700)",
+        "path" : "/test-input-trace/00000000009fd8b4 (10475700)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "000000000044a0a8",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-22",
+        "name" : "00000000009fd8c0 (10475712)",
+        "path" : "/test-input-trace/00000000009fd8c0 (10475712)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "0000000000457c8b",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-23",
+        "name" : "00000000009fd8cc (10475724)",
+        "path" : "/test-input-trace/00000000009fd8cc (10475724)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "0000000000466db0",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-24",
+        "name" : "00000000009fd8d8 (10475736)",
+        "path" : "/test-input-trace/00000000009fd8d8 (10475736)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "0000000000476c15",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-25",
+        "name" : "00000000009fd8e4 (10475748)",
+        "path" : "/test-input-trace/00000000009fd8e4 (10475748)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "0000000000489501",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-26",
+        "name" : "00000000009fd8f0 (10475760)",
+        "path" : "/test-input-trace/00000000009fd8f0 (10475760)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "000000000049c889",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-27",
+        "name" : "00000000009fd8fc (10475772)",
+        "path" : "/test-input-trace/00000000009fd8fc (10475772)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000004c116f",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-28",
+        "name" : "00000000009fd908 (10475784)",
+        "path" : "/test-input-trace/00000000009fd908 (10475784)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000004ce3f2",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-29",
+        "name" : "00000000009fd914 (10475796)",
+        "path" : "/test-input-trace/00000000009fd914 (10475796)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000004da07f",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-30",
+        "name" : "00000000009fd920 (10475808)",
+        "path" : "/test-input-trace/00000000009fd920 (10475808)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000004e5f08",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-31",
+        "name" : "00000000009fd92c (10475820)",
+        "path" : "/test-input-trace/00000000009fd92c (10475820)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000008c5ac5",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-32",
+        "name" : "00000000009fd938 (10475832)",
+        "path" : "/test-input-trace/00000000009fd938 (10475832)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000009ccd86",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-33",
+        "name" : "00000000009fd944 (10475844)",
+        "path" : "/test-input-trace/00000000009fd944 (10475844)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000009f8d83",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-34",
+        "name" : "00000000009fd950 (10475856)",
+        "path" : "/test-input-trace/00000000009fd950 (10475856)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "00000000009f8d84",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-35",
+        "name" : "00000000009fd95c (10475868)",
+        "path" : "/test-input-trace/00000000009fd95c (10475868)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "fseventsd-uuid",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-36",
+        "name" : "00000000009fd791 (10475409)",
+        "path" : "/test-input-trace/00000000009fd791 (10475409)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "untitled folder",
+          "type" : "FolderEvent;"
+        }
+      }
+    }
+  ]
+}

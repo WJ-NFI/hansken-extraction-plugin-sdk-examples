@@ -1,0 +1,12 @@
+{
+  "trace": {
+    "name" : "files",
+    "path" : "/com.apple.QuickLook.thumbnailcache/index.sqlite/files",
+    "data" : {
+      "raw" : {
+        "fileType" : "Comma Separated Values",
+        "mimeType" : "text/csv; charset=utf-8"
+      }
+    }
+  }
+}

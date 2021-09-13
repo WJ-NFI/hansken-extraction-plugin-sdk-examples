@@ -1,0 +1,123 @@
+{
+  "trace" : {
+    "id" : "0",
+    "name" : "test-input-trace",
+    "path" : "/test-input-trace",
+    "data" : {
+      "fileType" : "GnuZip"
+    },
+    "eventLog" : {
+      "application" : "fseventsd"
+    },
+    "file" : {
+      "modifiedOn" : "22-02-2021T12:00:00",
+      "path" : "fseventsd"
+    }
+  },
+  "children" : [
+    {
+      "trace" : {
+        "id" : "0-0",
+        "name" : "00000000000f14e4 (988388)",
+        "path" : "/test-input-trace/00000000000f14e4 (988388)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "NULL",
+          "type" : ""
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-1",
+        "name" : "00000000008c5262 (9196130)",
+        "path" : "/test-input-trace/00000000008c5262 (9196130)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : ".VolumeIcon.icns",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-2",
+        "name" : "00000000008c5249 (9196105)",
+        "path" : "/test-input-trace/00000000008c5249 (9196105)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : ".dat.nosync0273.QepEWp",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-3",
+        "name" : "00000000008c523f (9196095)",
+        "path" : "/test-input-trace/00000000008c523f (9196095)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : ".dat.nosync0273.xH27sz",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-4",
+        "name" : "00000000008c5240 (9196096)",
+        "path" : "/test-input-trace/00000000008c5240 (9196096)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : ".disk_label",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-5",
+        "name" : "00000000008c524a (9196106)",
+        "path" : "/test-input-trace/00000000008c524a (9196106)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : ".disk_label_2x",
+          "type" : "FileEvent;"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-6",
+        "name" : "00000000009d9106 (10326278)",
+        "path" : "/test-input-trace/00000000009d9106 (10326278)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "src=0,dst=510146",
+          "type" : ""
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-7",
+        "name" : "00000000008c5221 (9196065)",
+        "path" : "/test-input-trace/00000000008c5221 (9196065)",
+        "event" : {
+          "application" : "fseventsd",
+          "createdOn" : "22-02-2021T12:00:00",
+          "text" : "tmbootpicker.efi",
+          "type" : "FileEvent;"
+        }
+      }
+    }
+  ]
+}

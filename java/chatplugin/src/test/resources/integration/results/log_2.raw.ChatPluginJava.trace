@@ -1,0 +1,1285 @@
+{
+  "trace" : {
+    "id" : "0",
+    "name" : "test-input-trace",
+    "path" : "/test-input-trace",
+    "chatConversation" : {
+      "application" : "DemoApp log_2.txt"
+    },
+    "file" : {
+      "extension" : "txt",
+      "name" : "log_2.txt"
+    }
+  },
+  "children" : [
+    {
+      "trace" : {
+        "id" : "0-0",
+        "name" : "message 0",
+        "path" : "/test-input-trace/message 0",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Starbuck",
+          "message" : "hey, weet je wie Tigh is?",
+          "to" : [
+            "Adama"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-0-0",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 0/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-0-1",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 0/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-1",
+        "name" : "message 1",
+        "path" : "/test-input-trace/message 1",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "Galen?",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-1-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 1/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-1-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 1/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-2",
+        "name" : "message 2",
+        "path" : "/test-input-trace/message 2",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Starbuck",
+          "message" : "nee, Tigh, niet Tyrol",
+          "to" : [
+            "Adama"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-2-0",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 2/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-2-1",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 2/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-3",
+        "name" : "message 3",
+        "path" : "/test-input-trace/message 3",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "geen idee",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-3-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 3/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-3-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 3/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-4",
+        "name" : "message 4",
+        "path" : "/test-input-trace/message 4",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Starbuck",
+          "message" : "hij kan niet typen, en geeft de schuld aan zijn keyboard",
+          "to" : [
+            "Adama"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-4-0",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 4/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-4-1",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 4/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-5",
+        "name" : "message 5",
+        "path" : "/test-input-trace/message 5",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "ooooh, die jonge",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-5-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 5/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-5-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 5/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-6",
+        "name" : "message 6",
+        "path" : "/test-input-trace/message 6",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "die is al lang ontslagen",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-6-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 6/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-6-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 6/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-7",
+        "name" : "message 7",
+        "path" : "/test-input-trace/message 7",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "hoezo?",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-7-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 7/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-7-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 7/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-8",
+        "name" : "message 8",
+        "path" : "/test-input-trace/message 8",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Starbuck",
+          "message" : "hij blijft mij gewoon spammen",
+          "to" : [
+            "Adama"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-8-0",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 8/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-8-1",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 8/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-9",
+        "name" : "message 9",
+        "path" : "/test-input-trace/message 9",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "aha",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-9-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 9/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-9-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 9/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-10",
+        "name" : "message 10",
+        "path" : "/test-input-trace/message 10",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "maar niet vertellen dat ie ontslagen is",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-10-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 10/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-10-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 10/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-11",
+        "name" : "message 11",
+        "path" : "/test-input-trace/message 11",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Starbuck",
+          "message" : "echt?",
+          "to" : [
+            "Adama"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-11-0",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 11/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-11-1",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 11/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-12",
+        "name" : "message 12",
+        "path" : "/test-input-trace/message 12",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Starbuck",
+          "message" : "waarom is ie ontslagen dan",
+          "to" : [
+            "Adama"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-12-0",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 12/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-12-1",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 12/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-13",
+        "name" : "message 13",
+        "path" : "/test-input-trace/message 13",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "dat mag ik niet vertellen, sorry",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-13-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 13/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-13-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 13/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-14",
+        "name" : "message 14",
+        "path" : "/test-input-trace/message 14",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "ok, dit mag je niet doorvertellen",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-14-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 14/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-14-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 14/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-15",
+        "name" : "message 15",
+        "path" : "/test-input-trace/message 15",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "maar hij is ontslagen omdat...",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-15-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 15/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-15-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 15/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-16",
+        "name" : "message 16",
+        "path" : "/test-input-trace/message 16",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Starbuck",
+          "message" : "hallo?",
+          "to" : [
+            "Adama"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-16-0",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 16/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-16-1",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 16/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-17",
+        "name" : "message 17",
+        "path" : "/test-input-trace/message 17",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "...en mensen waren niet blij van",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-17-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 17/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-17-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 17/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-18",
+        "name" : "message 18",
+        "path" : "/test-input-trace/message 18",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "niet doorvertellen",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-18-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 18/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-18-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 18/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-19",
+        "name" : "message 19",
+        "path" : "/test-input-trace/message 19",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Starbuck",
+          "message" : "wat mag ik niet doorvertellen!?",
+          "to" : [
+            "Adama"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-19-0",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 19/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-19-1",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 19/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-20",
+        "name" : "message 20",
+        "path" : "/test-input-trace/message 20",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "exactly ;)",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-20-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 20/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-20-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 20/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-21",
+        "name" : "message 21",
+        "path" : "/test-input-trace/message 21",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "laat maar",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-21-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 21/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-21-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 21/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-22",
+        "name" : "message 22",
+        "path" : "/test-input-trace/message 22",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "gaat niet om Tigh",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-22-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 22/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-22-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 22/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-23",
+        "name" : "message 23",
+        "path" : "/test-input-trace/message 23",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "die mag wel blijven",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-23-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 23/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-23-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 23/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-24",
+        "name" : "message 24",
+        "path" : "/test-input-trace/message 24",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Starbuck",
+          "message" : "okay?",
+          "to" : [
+            "Adama"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-24-0",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 24/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-24-1",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 24/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-25",
+        "name" : "message 25",
+        "path" : "/test-input-trace/message 25",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Starbuck",
+          "message" : "maar wie is hij dan?",
+          "to" : [
+            "Adama"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-25-0",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 25/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-25-1",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 25/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trace" : {
+        "id" : "0-26",
+        "name" : "message 26",
+        "path" : "/test-input-trace/message 26",
+        "chatMessage" : {
+          "application" : "DemoApp",
+          "from" : "Adama",
+          "message" : "die gast die naast mij zit",
+          "to" : [
+            "Starbuck"
+          ]
+        },
+        "collection" : {
+          "1" : {
+            "collection" : {
+              "name" : "Adama-Starbuck",
+              "type" : "chatConversation"
+            }
+          }
+        }
+      },
+      "children" : [
+        {
+          "trace" : {
+            "id" : "0-26-0",
+            "name" : "Adama",
+            "path" : "/test-input-trace/message 26/Adama",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Adama"
+            }
+          }
+        },
+        {
+          "trace" : {
+            "id" : "0-26-1",
+            "name" : "Starbuck",
+            "path" : "/test-input-trace/message 26/Starbuck",
+            "contact" : {
+              "application" : "DemoApp",
+              "name" : "Starbuck"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

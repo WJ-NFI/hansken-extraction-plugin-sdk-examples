@@ -1,0 +1,14 @@
+{
+  "trace" : {
+    "id" : "0-2",
+    "name" : "message 2",
+    "chatMessage" : {
+      "application" : "DemoApp",
+      "from" : "Tigh",
+      "message" : "arggh",
+      "to" : [
+        "Starbuck"
+      ]
+    }
+  }
+}

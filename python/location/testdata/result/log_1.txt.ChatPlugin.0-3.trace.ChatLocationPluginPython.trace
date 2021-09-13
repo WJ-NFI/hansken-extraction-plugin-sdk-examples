@@ -1,0 +1,15 @@
+{
+  "trace" : {
+    "id" : "0-3",
+    "name" : "message 3",
+    "path" : "/test-input-trace",
+    "chatMessage" : {
+      "application" : "DemoApp",
+      "from" : "Tigh",
+      "message" : "GOEDE MORGEN",
+      "to" : [
+        "Starbuck"
+      ]
+    }
+  }
+}

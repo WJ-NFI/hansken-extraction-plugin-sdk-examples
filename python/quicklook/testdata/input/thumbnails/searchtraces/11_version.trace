@@ -1,0 +1,20 @@
+{
+  "trace": {
+    "name" : "11 version",
+    "path" : "/com.apple.QuickLook.thumbnailcache/index.sqlite/files",
+    "data" : {
+      "raw" : {
+        "fileType" : "Binary Plist",
+        "mimeType" : "application/bplist"
+      }
+    },
+    "file" : {
+      "entryId" : "11",
+      "name" : "version",
+      "path" : "files/11/version",
+      "misc" : {
+        "table" : "files"
+      }
+    }
+  }
+}
