@@ -47,7 +47,7 @@ public final class SecretsPlugin implements ExtractionPlugin {
             .author(author)
             .maturityLevel(PROOF_OF_CONCEPT)
             .webpageUrl("https://hansken.org")
-            .hqlMatcher("$data.type=raw AND file.extension=peb")
+            .hqlMatcher("$data.size>0 AND file.extension=peb")
             .id(new PluginId(TOOL_DOMAIN, TOOL_CATEGORY, TOOL_NAME))
             .license(TOOL_LICENSE)
             .build();

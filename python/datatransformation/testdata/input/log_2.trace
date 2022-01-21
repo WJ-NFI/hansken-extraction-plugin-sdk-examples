@@ -1,7 +1,7 @@
 {
   "trace": {
     "data": {
-      "raw.fileType": "Text UTF-8"
+      "txt.fileType": "Text UTF-8"
     },
     "file": {
       "extension": "txt",

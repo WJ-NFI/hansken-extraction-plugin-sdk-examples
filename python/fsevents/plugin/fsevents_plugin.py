@@ -765,6 +765,7 @@ class FSEventsPlugin(ExtractionPlugin):
     def plugin_info(self) -> PluginInfo:
         log.info('pluginInfo request')
         plugin_info = PluginInfo(self,
+                                 id=PluginId('nfi.nl', 'events', 'FSEventsPluginPython'),
                                  version='1.0.0',
                                  description='Example Extraction Plugin: Parses apple filesystem events',
                                  author=Author('MoDS', 'mods@holmes.nl', 'NFI'),
@@ -773,7 +774,6 @@ class FSEventsPlugin(ExtractionPlugin):
                                  # TODO: HANSKEN-14840: FSEvents plugin matcher fails to match on file.path property
                                  # TODO: matcher='file.path:fseventsd AND data.raw.fileType:GnuZip AND $data.type=raw'
                                  matcher='data.raw.fileType:GnuZip AND $data.type=raw',
-                                 id=PluginId('nfi.nl', 'events', 'FSEventsPluginPython'),
                                  license='Apache License 2.0'
                                  )
         log.debug(f'returning plugin info: {plugin_info}')

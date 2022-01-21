@@ -4,6 +4,11 @@
     "name" : "file2.peb",
     "file" : {
       "extension" : "peb"
+    },
+    "data" : {
+      "peb" : {
+        "size" : 10242
+      }
     }
   }
 }

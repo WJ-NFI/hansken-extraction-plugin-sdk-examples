@@ -13,6 +13,8 @@ There you can find README files specific to that implementation. Or use the link
 The Extraction Plugin Software Development Kit can be used to develop an extraction plugin that can be run during the
 extraction process.
 
+.. note:: The Hansken ExpertUI Documentation contains a section "Extraction Plugins SDK" written for plugin devs, which contains more details, explanations and a great FAQ on how to write, test and use Extraction Plugins.
+
 ## How to get started 101
 
 Now, in order to get started with a plugin(Python example here, but the same concepts apply for both Java & Python...and

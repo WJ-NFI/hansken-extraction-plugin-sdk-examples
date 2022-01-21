@@ -128,3 +128,19 @@ The package contains the following:
       in the previous extraction round.
     - `test/resources/integration/results`: the expected result traces of running the sample logs through
       our `DataTransformationPlugin.java` Extraction Plugin.
+
+## DataDigestPlugin
+
+This plugin reads data in chunks and calculates an SHA-256 hash over the entire data.
+
+The package contains the following:
+
+- `main/.../DataDigestPlugin.java`: the actual Java implementation of the data digest tool using the Extraction Plugin API.
+- `test/.../DataDigestPluginIT.java`: a simple Integration test using the FLITS testing framework. This allows us to
+  **test/validate** the plugin input/output without having a running Hansken instance.
+    - `test/resources/integration/inputs/picture.jpg`: a sample picture
+    - `test/resources/integration/inputs/picture.trace`: the properties that allows FLITS to run under the
+      assumption that like Hansken, the input trace (a picture in this case), were already enriched by a different tool
+      in the previous extraction round.
+    - `test/resources/integration/results`: the expected result traces of running the sample logs through
+      our `DataDigestPlugin.java` Extraction Plugin.

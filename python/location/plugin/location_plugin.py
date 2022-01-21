@@ -20,13 +20,13 @@ class LocationPlugin(MetaExtractionPlugin):
         log.info('pluginInfo request')
         plugin_info = PluginInfo(
             self,
+            id=PluginId('nfi.nl', 'gps', 'ChatLocationPluginPython'),
             version='0.0.1',
             description='Example Extraction Plugin: Location extractor for exclusive chats',
             author=Author('The Externals', 'tester@holmes.nl', 'NFI'),
             maturity=MaturityLevel.PROOF_OF_CONCEPT,
             webpage_url='https://hansken.org',
             matcher='type=chatMessage AND chatMessage.message=*',
-            id=PluginId('nfi.nl', 'gps', 'ChatLocationPluginPython'),
             license='Apache License 2.0'
         )
         log.debug(f'returning plugin info: {plugin_info}')

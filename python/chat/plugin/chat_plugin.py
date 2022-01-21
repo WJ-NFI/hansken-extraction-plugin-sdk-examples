@@ -11,18 +11,18 @@ log = Logger(__name__)
 class ChatPlugin(ExtractionPlugin):
 
     def plugin_info(self):
-        log.info('pluginInfo request')
         plugin_info = PluginInfo(
             self,
+            id=PluginId('nfi.nl', 'chat', 'ChatPluginPython'),
             version='1.0.0',
             description='Example Extraction Plugin: Exclusive Chat format file parser',
             author=Author('The Externals', 'tester@holmes.nl', 'NFI'),
             maturity=MaturityLevel.PROOF_OF_CONCEPT,
             webpage_url='https://hansken.org',
             matcher='file.extension=txt',
-            id=PluginId('nfi.nl', 'chat', 'ChatPluginPython'),
             license='Apache License 2.0'
         )
+        log.info('pluginInfo request')
         log.debug(f'returning plugin info: {plugin_info}')
         return plugin_info
 

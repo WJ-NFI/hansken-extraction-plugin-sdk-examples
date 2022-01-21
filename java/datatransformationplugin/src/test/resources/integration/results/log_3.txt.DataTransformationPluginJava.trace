@@ -4,13 +4,13 @@
     "name" : "test-input-trace",
     "path" : "/test-input-trace",
     "data" : {
-      "raw" : {
+      "txt" : {
         "mimeClass" : "text"
       }
     },
     "file" : {
       "extension" : "txt",
-      "name" : "log_1.txt"
+      "name" : "log_3.txt"
     }
   },
   "children" : [
@@ -22,7 +22,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":27,\"offset\":0}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":60,\"offset\":0}]}]"
         }
       }
     },
@@ -34,7 +34,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":27,\"offset\":27}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":20,\"offset\":60}]}]"
         }
       }
     },
@@ -46,7 +46,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":20,\"offset\":54}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":26,\"offset\":80}]}]"
         }
       }
     },
@@ -58,7 +58,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":27,\"offset\":74}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":60,\"offset\":106}]}]"
         }
       }
     },
@@ -70,7 +70,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":33,\"offset\":101}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":29,\"offset\":166}]}]"
         }
       }
     },
@@ -82,7 +82,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":25,\"offset\":134}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":46,\"offset\":195}]}]"
         }
       }
     },
@@ -94,7 +94,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":18,\"offset\":159}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":16,\"offset\":241}]}]"
         }
       }
     },
@@ -106,7 +106,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":23,\"offset\":177}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":28,\"offset\":257}]}]"
         }
       }
     },
@@ -118,7 +118,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":32,\"offset\":200}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":16,\"offset\":285}]}]"
         }
       }
     },
@@ -130,7 +130,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":19,\"offset\":232}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":18,\"offset\":301}]}]"
         }
       }
     },
@@ -142,7 +142,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":50,\"offset\":251}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":21,\"offset\":319}]}]"
         }
       }
     },
@@ -154,7 +154,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":28,\"offset\":301}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":19,\"offset\":340}]}]"
         }
       }
     },
@@ -166,7 +166,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":51,\"offset\":329}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":19,\"offset\":359}]}]"
         }
       }
     },
@@ -178,7 +178,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":34,\"offset\":380}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":30,\"offset\":378}]}]"
         }
       }
     },
@@ -190,7 +190,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":47,\"offset\":414}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":34,\"offset\":408}]}]"
         }
       }
     },
@@ -202,7 +202,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":18,\"offset\":461}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":17,\"offset\":442}]}]"
         }
       }
     },
@@ -214,7 +214,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":28,\"offset\":479}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":19,\"offset\":459}]}]"
         }
       }
     },
@@ -226,7 +226,7 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":19,\"offset\":507}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":33,\"offset\":478}]}]"
         }
       }
     },
@@ -238,7 +238,43 @@
       },
       "data" : {
         "raw" : {
-          "descriptor" : "[{\"ranges\":[{\"length\":18,\"offset\":526}]}]"
+          "descriptor" : "[{\"ranges\":[{\"length\":36,\"offset\":511}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-19",
+        "name" : "lineNumber 20",
+        "path" : "/test-input-trace/lineNumber 20"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":32,\"offset\":547}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-20",
+        "name" : "lineNumber 21",
+        "path" : "/test-input-trace/lineNumber 21"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":16,\"offset\":579}]}]"
+        }
+      }
+    },
+    {
+      "trace" : {
+        "id" : "0-21",
+        "name" : "lineNumber 22",
+        "path" : "/test-input-trace/lineNumber 22"
+      },
+      "data" : {
+        "raw" : {
+          "descriptor" : "[{\"ranges\":[{\"length\":21,\"offset\":595}]}]"
         }
       }
     }

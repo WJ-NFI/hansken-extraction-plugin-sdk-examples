@@ -12,13 +12,13 @@ class SecretsPlugin(ExtractionPlugin):
         log.info('pluginInfo request')
         plugin_info = PluginInfo(
             self,
+            id=PluginId('nfi.nl', 'crypto', 'SecretsPluginPython'),
             version='0.0.1',
             description='Example Extraction Plugin: Extractor for .peb secret files',
             author=Author('The Externals', 'tester@holmes.nl', 'NFI'),
             maturity=MaturityLevel.PROOF_OF_CONCEPT,
             webpage_url='https://hansken.org',
-            matcher='$data.type=raw AND file.extension=peb',
-            id=PluginId('nfi.nl', 'crypto', 'SecretsPluginPython'),
+            matcher='$data.size>0 AND file.extension=peb',
             license='Apache License 2.0'
         )
         log.debug(f'returning plugin info: {plugin_info}')

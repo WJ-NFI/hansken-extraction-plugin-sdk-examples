@@ -7,7 +7,7 @@ package_name = "example_quicklook_plugin"
 version_string = "1.0.0"
 
 dependencies = [
-    "hansken_extraction_plugin==0.4.3",  # the plugin SDK
+    "hansken_extraction_plugin==0.4.11",  # the plugin SDK
     "Pillow==8.1.2"
 ]
 
@@ -17,13 +17,13 @@ setup(
     author='Netherlands Forensic Institute',
     author_email='hansken@holmes.nl',
     description='Example Hansken Extraction Plugin: quicklook',
+    python_requires='>=3.8',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 3 :: Only',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
     packages=['.'],
     include_package_data=True,

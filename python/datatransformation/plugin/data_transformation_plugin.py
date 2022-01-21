@@ -12,6 +12,7 @@ class DataTransformationPlugin(ExtractionPlugin):
         log.info('pluginInfo request')
         plugin_info = PluginInfo(
             self,
+            id=PluginId('nfi.nl', 'data', 'DataTransformationPluginPython'),
             version='1.0.0',
             description='Example Extraction Plugin: '
                         'This plugin creates a child trace with a '
@@ -20,7 +21,6 @@ class DataTransformationPlugin(ExtractionPlugin):
             maturity=MaturityLevel.PROOF_OF_CONCEPT,
             webpage_url='https://hansken.org',
             matcher='type=file AND $data.fileType=\'Text UTF-8\'',
-            id=PluginId('nfi.nl', 'data', 'DataTransformationPluginPython'),
             license='Apache License 2.0'
         )
         log.debug(f'returning plugin info: {plugin_info}')

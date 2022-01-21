@@ -20,10 +20,10 @@ decorator==5.0.9
     #   traitlets
 grpcio==1.31.0
     # via hansken-extraction-plugin
+hansken-extraction-plugin==0.4.11
+    # via example-quicklook-plugin (setup.py)
 hansken==2021.7.12
     # via hansken-extraction-plugin
-hansken_extraction_plugin==0.4.3
-    # via example_quicklook_plugin (setup.py)
 idna==3.2
     # via requests
 ijson==3.1.4
@@ -49,7 +49,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
     # via ipython
 pillow==8.1.2
-    # via example_quicklook_plugin (setup.py)
+    # via example-quicklook-plugin (setup.py)
 prompt-toolkit==3.0.19
     # via ipython
 protobuf==3.13.0

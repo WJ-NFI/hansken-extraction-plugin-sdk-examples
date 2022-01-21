@@ -1,7 +1,16 @@
 Hansken Extraction Plugin Examples Changelog
 ============================================
 
-## Release-1.2
+## Release-${project.version}
+
+
+## Release-1.3
+* HANSKEN-16175: Update examples to SDK version 0.4.11
+* HANSKEN-16095: Changed some HQL-Lite matchers and testdata to make plugins and data work with Hansken 
+* HANSKEN-15801: Changed build agent in Jenkinsfile
+* HANSKEN-15759: Added Data Digest plugins (Java and Python)
+* HANSKEN-15593: Added resources to OCR plugin
+* HANSKEN-15533: Update examples to SDK version 0.4.6
 * HANSKEN-15401: Remove holmes pypi from git.eminjenv SDK Examples
 * HANSKEN-15033: Python: Add QuickLook example plugin
 * HANSKEN-15032: Java: Add QuickLook example plugin

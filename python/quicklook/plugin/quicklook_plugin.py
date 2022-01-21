@@ -147,6 +147,7 @@ class QuickLookPlugin(DeferredExtractionPlugin):
         log.info('pluginInfo request')
         plugin_info = PluginInfo(
             self,
+            id=PluginId('nfi.nl', 'picture', 'QuickLookPluginPython'),
             version='1.0.0',
             description='Example Extraction Plugin: This plugin extracts thumbnails from thumbnail.data and '
                         'index.sqlite found in com.apple.QuickLook.thumbnailcache.',
@@ -154,7 +155,6 @@ class QuickLookPlugin(DeferredExtractionPlugin):
             maturity=MaturityLevel.PROOF_OF_CONCEPT,
             webpage_url='https://hansken.org',
             matcher='file.name=thumbnails.data AND $data.type=raw',
-            id=PluginId('nfi.nl', 'picture', 'QuickLookPluginPython'),
             license='Apache License 2.0'
         )
         log.debug(f'returning plugin info: {plugin_info}')
