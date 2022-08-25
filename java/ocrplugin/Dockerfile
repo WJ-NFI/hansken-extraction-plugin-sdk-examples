@@ -6,8 +6,7 @@ RUN apt-get update && apt-get install -y \
     default-jre \
  && rm -rf /var/lib/apt/lists/*
 
-ADD target/*tar.gz .
-LABEL hansken.extraction.plugin.name="OCRPlugin"
+ADD target/*.tar.gz ./
 
 EXPOSE 8999
 ENTRYPOINT ["java", "-jar", "plugin.jar"]

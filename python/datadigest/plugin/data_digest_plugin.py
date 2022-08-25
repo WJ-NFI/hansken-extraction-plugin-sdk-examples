@@ -12,7 +12,6 @@ class DataDigestPlugin(ExtractionPlugin):
     def plugin_info(self):
         log.info('pluginInfo request')
         plugin_info = PluginInfo(
-            self,
             id=PluginId('nfi.nl', 'digest', 'DataDigestPluginPython'),
             version='1.0.0',
             description='Example Extraction Plugin: Data digest plugin (reads the data in chunks and calculates the hash)',
@@ -27,8 +26,8 @@ class DataDigestPlugin(ExtractionPlugin):
 
     def process(self, trace, data_context):
         hash = hashlib.sha256()
-        data_size = data_context.data_size()
-        data_type = data_context.data_type()
+        data_size = data_context.data_size
+        data_type = data_context.data_type
         bytes_to_read = 1024 * 1024  # 1 MB
         chunks = data_size / bytes_to_read
 

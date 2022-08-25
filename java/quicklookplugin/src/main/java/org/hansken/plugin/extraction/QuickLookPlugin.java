@@ -40,8 +40,8 @@ import static org.hansken.plugin.extraction.util.ArgChecks.argNotNull;
 
 /**
  * This plugin has been developed with information obtained from az4n6.blogspot.com.
- * {@see https://az4n6.blogspot.com/2016/05/quicklook-python-parser-all-your-blobs.html}
- * {@see https://az4n6.blogspot.com/2016/10/quicklook-thumbnailsdata-parser.html}
+ * {see https://az4n6.blogspot.com/2016/05/quicklook-python-parser-all-your-blobs.html}
+ * {see https://az4n6.blogspot.com/2016/10/quicklook-thumbnailsdata-parser.html}
  */
 public final class QuickLookPlugin implements DeferredExtractionPlugin {
     private static final String THUMB_HEIGHT = "height";

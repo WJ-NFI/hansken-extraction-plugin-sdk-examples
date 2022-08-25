@@ -146,7 +146,6 @@ class QuickLookPlugin(DeferredExtractionPlugin):
     def plugin_info(self):
         log.info('pluginInfo request')
         plugin_info = PluginInfo(
-            self,
             id=PluginId('nfi.nl', 'picture', 'QuickLookPluginPython'),
             version='1.0.0',
             description='Example Extraction Plugin: This plugin extracts thumbnails from thumbnail.data and '
@@ -164,7 +163,7 @@ class QuickLookPlugin(DeferredExtractionPlugin):
         # TODO: HANSKEN-15611: To keep FLITS happy, first read trace data as otherwise this stream cannot be reached
         # Open and read extraction trace (thumbnail.data) data
         with trace.open() as reader:
-            thumbnail_data = BytesIO(reader.read(data_context.data_size()))
+            thumbnail_data = BytesIO(reader.read(data_context.data_size))
 
         # Search for SQLite tables "files" and "thumbnails" where the path matches the current trace
         files_path = get_expected_trace_path(trace, "files")

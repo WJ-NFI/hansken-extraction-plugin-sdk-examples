@@ -11,7 +11,6 @@ class SecretsPlugin(ExtractionPlugin):
     def plugin_info(self):
         log.info('pluginInfo request')
         plugin_info = PluginInfo(
-            self,
             id=PluginId('nfi.nl', 'crypto', 'SecretsPluginPython'),
             version='0.0.1',
             description='Example Extraction Plugin: Extractor for .peb secret files',

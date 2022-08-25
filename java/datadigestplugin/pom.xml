@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.hansken.plugin.extraction</groupId>
         <artifactId>plugin-super-pom</artifactId>
-        <version>0.4.11</version>
+        <version>0.6.1</version>
     </parent>
 
     <artifactId>datadigestplugin</artifactId>

@@ -1,10 +1,12 @@
 Hansken Extraction Plugin Examples Changelog
 ============================================
 
-## Release-${project.version}
 
 
-## Release-1.3
+## Release-1.4
+* HANSKEN-17187: Update examples to SDK version 0.6.1
+* HANSKEN-16575: Add Java vector data plugin example
+* HANSKEN-16260: Included docker image build in tox -e integration for python examples
 * HANSKEN-16175: Update examples to SDK version 0.4.11
 * HANSKEN-16095: Changed some HQL-Lite matchers and testdata to make plugins and data work with Hansken 
 * HANSKEN-15801: Changed build agent in Jenkinsfile

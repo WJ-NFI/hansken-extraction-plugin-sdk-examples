@@ -5,7 +5,6 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 import static java.util.Collections.singletonList;
 
 import java.io.IOException;
-import java.util.List;
 
 import org.hansken.plugin.extraction.api.Author;
 import org.hansken.plugin.extraction.api.DataContext;
@@ -80,9 +79,10 @@ public final class ChatPlugin implements ExtractionPlugin {
                     .set("chatMessage.from", sender)
                     .set("chatMessage.to", singletonList(receiver))  // list, because there can be multiple receivers
                     .set("chatMessage.message", message);
-                messageTrace.addTracelet(new Trace.Tracelet("collection",
-                            List.of(new Trace.TraceletProperty("collection.name", conversationId),
-                                    new Trace.TraceletProperty("collection.type","chatConversation"))));
+
+                messageTrace.addTracelet("collection", tracelet -> tracelet
+                    .set("name", conversationId)
+                    .set("type", "chatConversation"));
 
                 // add contacts as children of each message (they are the same for each message in the log,
                 // but it just shows an example)

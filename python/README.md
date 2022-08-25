@@ -68,7 +68,7 @@ This will show the test results for the plugin and a wheel distribution is creat
 
 To test the plugin running in a docker image:
 ```bash
-tox -e integration
+tox -e integration-test
 ```
 
 To serve the plugin manually:
