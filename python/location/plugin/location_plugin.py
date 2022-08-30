@@ -19,7 +19,6 @@ class LocationPlugin(MetaExtractionPlugin):
     def plugin_info(self):
         log.info('pluginInfo request')
         plugin_info = PluginInfo(
-            self,
             id=PluginId('nfi.nl', 'gps', 'ChatLocationPluginPython'),
             version='0.0.1',
             description='Example Extraction Plugin: Location extractor for exclusive chats',

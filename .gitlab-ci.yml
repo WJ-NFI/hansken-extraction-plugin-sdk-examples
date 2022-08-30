@@ -1,0 +1,91 @@
+default:
+  image: docker
+
+before_script:
+  - |
+    function build_java_plugin() {
+      # install java
+      apk update;
+      apk add --upgrade maven;
+      apk --no-cache add openjdk11 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community;
+
+      # build & test plugin
+      mvn -s java/mvn-settings.xml --file "java/$1/pom.xml" install;
+    }
+  - |
+    function build_python_plugin() {
+      # install java
+      apk update;
+      apk add --upgrade maven;
+      apk --no-cache add openjdk11 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community;
+
+      # install python
+      apk add --update python3 py3-pip;
+      python3 --version;
+      pip install -Iv tox pip-tools;
+
+      # build plugin and run tests
+      cd "python/$1";
+      tox -e upgrade
+      tox
+    }
+
+python-chat:
+  script:
+    - build_python_plugin chat
+
+python-datadigest:
+  script:
+    - build_python_plugin datadigest
+
+python-datatransformation:
+  script:
+    - build_python_plugin datatransformation
+
+python-fsevents:
+  script:
+    - build_python_plugin fsevents
+
+python-location:
+  script:
+    - build_python_plugin location
+
+python-quicklook:
+  script:
+    - build_python_plugin quicklook
+
+python-secrets:
+  script:
+    - build_python_plugin secrets
+
+java-chat:
+  script:
+    - build_java_plugin chatplugin
+
+java-datadigest:
+  script:
+    - build_java_plugin datadigestplugin
+
+java-datatransformation:
+  script:
+    - build_java_plugin datatransformationplugin
+
+java-location:
+  script:
+    - build_java_plugin locationplugin
+
+java-ocr:
+  script:
+    - build_java_plugin ocrplugin
+
+java-quicklook:
+  script:
+    - build_java_plugin quicklookplugin
+
+java-secrets:
+  script:
+    - build_java_plugin secretsplugin
+
+java-vector:
+  script:
+    - build_java_plugin vectorplugin

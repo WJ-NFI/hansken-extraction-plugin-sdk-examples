@@ -11,7 +11,6 @@ class DataTransformationPlugin(ExtractionPlugin):
     def plugin_info(self):
         log.info('pluginInfo request')
         plugin_info = PluginInfo(
-            self,
             id=PluginId('nfi.nl', 'data', 'DataTransformationPluginPython'),
             version='1.0.0',
             description='Example Extraction Plugin: '

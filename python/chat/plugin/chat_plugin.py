@@ -12,7 +12,6 @@ class ChatPlugin(ExtractionPlugin):
 
     def plugin_info(self):
         plugin_info = PluginInfo(
-            self,
             id=PluginId('nfi.nl', 'chat', 'ChatPluginPython'),
             version='1.0.0',
             description='Example Extraction Plugin: Exclusive Chat format file parser',
@@ -34,7 +33,7 @@ class ChatPlugin(ExtractionPlugin):
         # set the chat application property on the trace
         trace.update('chatConversation.application', f'DemoApp {file_name}')
 
-        data = trace.open().read(data_context.data_size())
+        data = trace.open().read(data_context.data_size)
         chat_messages = data.decode('utf-8').split('\n')
         log.debug(f'found chat messages: {chat_messages}')
 
