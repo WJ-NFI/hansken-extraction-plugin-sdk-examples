@@ -1,0 +1,5 @@
+# Ignore everything
+*
+
+# Except our maven build artifact
+!/target/*tar.gz
