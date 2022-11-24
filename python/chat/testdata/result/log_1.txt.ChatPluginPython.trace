@@ -32,6 +32,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Harry"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Sam"
+            }
+          }
         }
       },
       "children" : [
@@ -77,6 +93,22 @@
             "collection" : {
               "name" : "Harry-Sam",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Sam"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Harry"
             }
           }
         }
@@ -126,6 +158,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Harry"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Sam"
+            }
+          }
         }
       },
       "children" : [
@@ -171,6 +219,22 @@
             "collection" : {
               "name" : "Harry-Sam",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Sam"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Harry"
             }
           }
         }
@@ -220,6 +284,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Harry"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Sam"
+            }
+          }
         }
       },
       "children" : [
@@ -265,6 +345,22 @@
             "collection" : {
               "name" : "Harry-Sam",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Sam"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Harry"
             }
           }
         }
