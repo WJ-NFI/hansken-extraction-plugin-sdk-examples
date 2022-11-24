@@ -32,6 +32,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          }
         }
       },
       "children" : [
@@ -77,6 +93,22 @@
             "collection" : {
               "name" : "Starbuck-Tigh",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
             }
           }
         }
@@ -126,6 +158,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          }
         }
       },
       "children" : [
@@ -171,6 +219,22 @@
             "collection" : {
               "name" : "Starbuck-Tigh",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
             }
           }
         }
@@ -220,6 +284,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          }
         }
       },
       "children" : [
@@ -265,6 +345,22 @@
             "collection" : {
               "name" : "Starbuck-Tigh",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
             }
           }
         }
@@ -314,6 +410,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          }
         }
       },
       "children" : [
@@ -359,6 +471,22 @@
             "collection" : {
               "name" : "Starbuck-Tigh",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Tigh"
             }
           }
         }
@@ -408,6 +536,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          }
         }
       },
       "children" : [
@@ -453,6 +597,22 @@
             "collection" : {
               "name" : "Starbuck-Tigh",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Tigh"
             }
           }
         }
@@ -502,6 +662,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          }
         }
       },
       "children" : [
@@ -547,6 +723,22 @@
             "collection" : {
               "name" : "Starbuck-Tigh",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
             }
           }
         }
@@ -596,6 +788,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          }
         }
       },
       "children" : [
@@ -641,6 +849,22 @@
             "collection" : {
               "name" : "Starbuck-Tigh",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Tigh"
             }
           }
         }
@@ -690,6 +914,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          }
         }
       },
       "children" : [
@@ -735,6 +975,22 @@
             "collection" : {
               "name" : "Starbuck-Tigh",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
             }
           }
         }
@@ -784,6 +1040,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          }
         }
       },
       "children" : [
@@ -831,6 +1103,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
+            }
+          }
         }
       },
       "children" : [
@@ -876,6 +1164,22 @@
             "collection" : {
               "name" : "Starbuck-Tigh",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Tigh"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Starbuck"
             }
           }
         }

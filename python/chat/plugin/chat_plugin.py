@@ -49,9 +49,23 @@ class ChatPlugin(ExtractionPlugin):
 
             # add chat message
             child_builder = trace.child_builder(f'message {index}')
-            child_builder.add_tracelet(Tracelet("collection",
-                    { "collection.name": conversationId,
-                      "collection.type": "chatConversation" }));
+
+            # add a collection (tracelet of type FVT, see tracemodel for typing information)
+            child_builder.add_tracelet("collection",
+                    { "name": conversationId,
+                      "type": "chatConversation" })
+
+            # add two entities (tracelet of type MVT, see tracemodel for typing information)
+            # (!) works with Hansken 45.19.0 or higher
+            child_builder.add_tracelet("entity",
+                    { "confidence": 0.76,
+                      "type": "name",
+                      "value": sender})
+            child_builder.add_tracelet("entity",
+                    { "confidence": 0.79,
+                      "type": "name",
+                      "value": receiver})
+
             child_builder.update({
                 'chatMessage.application': 'DemoApp',
                 'chatMessage.from': sender,

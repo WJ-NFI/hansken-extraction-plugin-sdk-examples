@@ -32,6 +32,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Harry"
+            }
+          }
         }
       },
       "children" : [
@@ -77,6 +93,22 @@
             "collection" : {
               "name" : "Harry-Priscilla",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Harry"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Priscilla"
             }
           }
         }
@@ -126,6 +158,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Harry"
+            }
+          }
         }
       },
       "children" : [
@@ -171,6 +219,22 @@
             "collection" : {
               "name" : "Harry-Priscilla",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Harry"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Priscilla"
             }
           }
         }
@@ -220,6 +284,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Harry"
+            }
+          }
         }
       },
       "children" : [
@@ -265,6 +345,22 @@
             "collection" : {
               "name" : "Harry-Priscilla",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Harry"
             }
           }
         }
@@ -314,6 +410,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Harry"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          }
         }
       },
       "children" : [
@@ -359,6 +471,22 @@
             "collection" : {
               "name" : "Harry-Priscilla",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Harry"
             }
           }
         }

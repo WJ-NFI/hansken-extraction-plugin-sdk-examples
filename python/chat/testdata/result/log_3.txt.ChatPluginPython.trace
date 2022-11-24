@@ -32,6 +32,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Sam"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          }
         }
       },
       "children" : [
@@ -77,6 +93,22 @@
             "collection" : {
               "name" : "Priscilla-Sam",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Sam"
             }
           }
         }
@@ -126,6 +158,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Sam"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          }
         }
       },
       "children" : [
@@ -171,6 +219,22 @@
             "collection" : {
               "name" : "Priscilla-Sam",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Sam"
             }
           }
         }
@@ -220,6 +284,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Sam"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          }
         }
       },
       "children" : [
@@ -265,6 +345,22 @@
             "collection" : {
               "name" : "Priscilla-Sam",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Sam"
             }
           }
         }
@@ -314,6 +410,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Sam"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          }
         }
       },
       "children" : [
@@ -359,6 +471,22 @@
             "collection" : {
               "name" : "Priscilla-Sam",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Sam"
             }
           }
         }
@@ -408,6 +536,22 @@
               "type" : "chatConversation"
             }
           }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Sam"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          }
         }
       },
       "children" : [
@@ -453,6 +597,22 @@
             "collection" : {
               "name" : "Priscilla-Sam",
               "type" : "chatConversation"
+            }
+          }
+        },
+        "entity" : {
+          "2" : {
+            "entity" : {
+              "confidence" : 0.76,
+              "type" : "name",
+              "value" : "Priscilla"
+            }
+          },
+          "3" : {
+            "entity" : {
+              "confidence" : 0.79,
+              "type" : "name",
+              "value" : "Sam"
             }
           }
         }

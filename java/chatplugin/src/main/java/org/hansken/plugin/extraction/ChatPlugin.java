@@ -80,9 +80,23 @@ public final class ChatPlugin implements ExtractionPlugin {
                     .set("chatMessage.to", singletonList(receiver))  // list, because there can be multiple receivers
                     .set("chatMessage.message", message);
 
+                // add a collection (tracelet of type FVT, see tracemodel for typing information)
                 messageTrace.addTracelet("collection", tracelet -> tracelet
                     .set("name", conversationId)
                     .set("type", "chatConversation"));
+
+                // add two entities (tracelet of type MVT, see tracemodel for typing information)
+                // (!) works with Hansken 45.19.0 or higher
+                messageTrace.addTracelet("entity", tracelet -> tracelet
+                    .set("confidence", 0.76)
+                    .set("type", "name")
+                    .set("value", sender));
+
+                messageTrace.addTracelet("entity", tracelet -> tracelet
+                    .set("confidence", 0.79)
+                    .set("type", "name")
+                    .set("value", receiver));
+
 
                 // add contacts as children of each message (they are the same for each message in the log,
                 // but it just shows an example)
