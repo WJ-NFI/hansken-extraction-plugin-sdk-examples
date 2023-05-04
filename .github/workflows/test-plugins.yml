@@ -1,0 +1,81 @@
+name: Test example plugins
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up JDK 11
+      uses: actions/setup-java@v3
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+
+    - name: Install Tox
+      run: |
+        python -m pip install --upgrade pip
+        pip install tox pip-tools
+
+
+    - name: Test example plugin Python chat
+      run: cd python/chat && tox
+
+    - name: Test example plugin Python datadigest
+      run: cd python/datadigest && tox
+
+    - name: Test example plugin Python datatransformation
+      run: cd python/datatransformation && tox
+
+    - name: Test example plugin Python fsevents
+      run: cd python/fsevents && tox
+
+    - name: Test example plugin Python location
+      run: cd python/location && tox
+
+    - name: Test example plugin Python quicklook
+      run: cd python/quicklook && tox
+
+    - name: Test example plugin Python secrets
+      run: cd python/secrets && tox
+
+    - name: Test example plugin Java chat
+      run: cd java/chatplugin; mvn verify
+
+    - name: Test example plugin Java datadigest
+      run: cd java/datadigestplugin; mvn verify
+
+    - name: Test example plugin Java datatransformation
+      run: cd java/datatransformationplugin; mvn verify
+
+    - name: Test example plugin Java location
+      run: cd java/locationplugin; mvn verify
+
+    - name: Test example plugin Java ocr
+      run: cd java/ocrplugin; mvn verify
+
+    - name: Test example plugin Java quicklook
+      run: cd java/quicklookplugin; mvn verify
+
+    - name: Test example plugin Java secrets
+      run: cd java/secretsplugin; mvn verify
+
+    - name: Test example plugin Java vector
+      run: cd java/vectorplugin; mvn verify
+
