@@ -5,11 +5,12 @@ This package contains a couple of example Extraction Plugins to show you how sim
 # Table of Contents
 1. [Chat plugin (basic extraction plugin usage)](#chatplugin)
 2. [Location plugin (basic meta processing)](#locationplugin)
-3. [Secrets plugin (basic data writing)](#secretsplugin)
-4. [OCR plugin (basic data writing)](#ocrplugin)
-5. [DataTransformationPlugin (basic data transformations)](#DataTransformationPlugin)
-6. [DataDigestPlugin (basic data reading)](#DataDigestPlugin)
-7. [VectorPlugin (basic vectors)](#VectorPlugin)
+3. [Quicklook plugin (basic deferred extraction)](#quicklookplugin)
+4. [Secrets plugin (basic data writing)](#secretsplugin)
+5. [OCR plugin (basic data writing)](#ocrplugin)
+6. [DataTransformationPlugin (basic data transformations)](#DataTransformationPlugin)
+7. [DataDigestPlugin (basic data reading)](#DataDigestPlugin)
+8. [VectorPlugin (basic vectors)](#VectorPlugin)
 
 ## ChatPlugin
 
@@ -26,6 +27,7 @@ The package contains the following:
       in the previous extraction round.
     - `test/resources/integration/results`: the expected result traces of running the sample logs through
       our `ChatPlugin.java` Extraction Plugin.
+
 
 ## LocationPlugin
 
@@ -46,9 +48,12 @@ The package contains the following:
     - `test/resources/integration/results`: the expected result traces of running the traces through
       our `ChatLocationPlugin.java` Meta Extraction Plugin.
 
+
 ## QuickLookPlugin
 
 This plugin extracts thumbnails from thumbnail.data and index.sqlite found in com.apple.QuickLook.thumbnailcache.
+This plugin demonstrates how to create a deferred extraction plugin, and how to search for related traces during
+the `process(...)`ing of a trace.
 
 The package contains the following:
 
@@ -60,6 +65,7 @@ The package contains the following:
           by the plugin.
     - `test/resources/integration/results`: the expected result traces of running the traces through
       our `QuickLookPlugin.java` Deferred Extraction Plugin.
+
 
 ## SecretsPlugin
 
@@ -84,6 +90,7 @@ For the result files, note that more files have been generated than only the res
 fully created trace tree) of each test case. Each new data stream is also written to the result output, both for
 the input trace, and the created child traces. The name of each file will contain the id of the trace to which the
 data stream belongs, and will have the type of the stream as extension.
+
 
 ## OCRPlugin
 
@@ -116,6 +123,7 @@ The package contains the following:
     - `test/resources/integration/results`: the expected result traces of running the traces through
       our `OCRPlugin.java`
 
+
 ## DataTransformationPlugin
 
 This plugin creates a child trace with a ranged data transformation for each line of a simple made-up chat log.
@@ -132,6 +140,7 @@ The package contains the following:
     - `test/resources/integration/results`: the expected result traces of running the sample logs through
       our `DataTransformationPlugin.java` Extraction Plugin.
 
+
 ## DataDigestPlugin
 
 This plugin reads data in chunks and calculates an SHA-256 hash over the entire data.
@@ -147,6 +156,7 @@ The package contains the following:
       in the previous extraction round.
     - `test/resources/integration/results`: the expected result traces of running the sample logs through
       our `DataDigestPlugin.java` Extraction Plugin.
+
 
 ## VectorPlugin
 
