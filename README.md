@@ -8,12 +8,15 @@ There you can find README files specific to that implementation. Or use the link
 
 * [Python Extraction Plugins](python/README.md)
 
+If you just want to create a fresh Python plugin from scratch, you can use the [extraction plugin template](https://github.com/NetherlandsForensicInstitute/hansken-extraction-plugin-template-python).
+
 ## Extraction Plugin SDK
 
 The Extraction Plugin Software Development Kit can be used to develop an extraction plugin that can be run during the
 extraction process. Check the 
 [Extraction Plugins SDK Documentation](https://netherlandsforensicinstitute.github.io/hansken-extraction-plugin-sdk-documentation/latest/) 
 for everything you need to know on how to write, test and use Extraction Plugins.
+
 
 ## Licensing
 
