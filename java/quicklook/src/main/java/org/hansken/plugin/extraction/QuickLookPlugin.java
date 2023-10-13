@@ -82,10 +82,10 @@ public final class QuickLookPlugin implements DeferredExtractionPlugin {
 
         // Search for SQLite tables "files" and "thumbnails" where the path matches the current trace
         final SearchTrace filesTrace =
-            searchForTrace(searcher, format("data.raw.fileType='Comma Separated Values' AND path='%s'",
+            searchForTrace(searcher, format("(data.raw.fileType='Tab Separated Values' OR data.raw.fileType='Comma Separated Values') AND path='%s'",
                 getExpectedTracePath(trace, "files")));
         final SearchTrace thumbnailsTrace =
-            searchForTrace(searcher, format("data.raw.fileType='Comma Separated Values' AND path='%s'",
+            searchForTrace(searcher, format("(data.raw.fileType='Tab Separated Values' OR data.raw.fileType='Comma Separated Values') AND path='%s'",
                 getExpectedTracePath(trace, "thumbnails")));
 
         // Parse the found traces of files and thumbnails and add as child traces

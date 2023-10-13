@@ -167,12 +167,12 @@ class QuickLookPlugin(DeferredExtractionPlugin):
 
         # Search for SQLite tables "files" and "thumbnails" where the path matches the current trace
         files_path = get_expected_trace_path(trace, "files")
-        files_trace = search_for_trace(searcher, f"data.raw.fileType='Comma Separated Values' AND path='{files_path}'")
+        files_trace = search_for_trace(searcher, f"(data.raw.fileType='Tab Separated Values' OR data.raw.fileType='Comma Separated Values') AND path='{files_path}'")
         files = parse_database_table(files_trace)  # Parse the contents of the "files"-table
 
         thumbnails_path = get_expected_trace_path(trace, "thumbnails")
         thumbnails_trace = search_for_trace(searcher,
-                                            f"data.raw.fileType='Comma Separated Values' AND path='{thumbnails_path}'")
+                                            f"(data.raw.fileType='Tab Separated Values' OR data.raw.fileType='Comma Separated Values') AND path='{thumbnails_path}'")
         thumbnails = parse_database_table(thumbnails_trace)  # Parse the contents of the "thumbnails"-table
 
         # Keep track of unused file indexes, there may be files which do not have a thumbnail anymore
