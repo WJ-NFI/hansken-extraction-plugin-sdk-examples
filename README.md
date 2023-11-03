@@ -20,4 +20,4 @@ for everything you need to know on how to write, test and use Extraction Plugins
 
 ## Licensing
 
-This repository and all extraction plugin examples are distributed under the Apache License 2.0, see LICENSE for details.
+This repository and all extraction plugin examples are distributed under the Apache License 2.0, see [LICENSE](LICENSE) for details.
