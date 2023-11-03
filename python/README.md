@@ -44,7 +44,7 @@ be processed and produce or enrich Hansken traces (the chat records) and create 
 Required:
 
 - python 3.8 or later with [tox](https://pypi.org/project/tox/)
-- java 11 (for running the test-framework, which is implemented in java)
+- java 11 or later (for running the test-framework, which is implemented in java)
 
 It is recommended you also install:
 
