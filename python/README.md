@@ -11,10 +11,7 @@ python-api offers is available in this SDK.
   * [Quick start](#quick-start)
     * [Prerequisites](#prerequisites)
     * [Building and running](#building-and-running)
-* [Testing](#testing)
-  * [Standalone](#standalone)
-  * [Docker](#docker)
-  * [Manual](#manual)
+    * [Regenerate expected test results](#regenerate-expected-test-results)
   * [Help](#help)
 
 The following paragraph describes the workings in the context of an extraction.
@@ -46,13 +43,13 @@ be processed and produce or enrich Hansken traces (the chat records) and create 
 
 Required:
 
-- python 3.6, 3.7 or 3.8
-- java 11 (for running the test-framework, which is implemented in java)
+- python 3.8 or later with [tox](https://pypi.org/project/tox/)
+- java 11 or later (for running the test-framework, which is implemented in java)
 
 It is recommended you also install:
 
 - docker - for running plugins in containers, required for integration tests
-- gzip - for unpacking test data, required when using Flits
+- gzip - for unpacking test data, required when using the Flits test framework
 
 This software has only been tested on Linux, you may have luck on other systems. If you do, please let us know (We'll be
 flabbergasted).
