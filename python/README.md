@@ -19,6 +19,7 @@ The following paragraph describes the workings in the context of an extraction.
 # Getting started
 
 Before showing how to get started with a Python plugin, note that a couple of example plugins are provided to show you how the API operates:
+* *AppleDoubleKaitaiPlugin*: This plugin parses the content of an AppleDouble file into a property represented as json. This plugin can be found in the `python/appledoublekaitai` directory.
 * *ChatPlugin*: This plugin parses a simple made-up chat logs into a message tree. This plugin can be found in the `python/chat` directory.
 * *DataDigestPlugin*: This plugin reads data in chunks and calculates an SHA-256 hash over the entire data. This plugin can be found in the `python/datadigest` directory.
 * *DataTransformationPlugin*: This plugin creates transformations from simple made-up chat logs. This plugin can be found in the `python/datatransformation`directory.
